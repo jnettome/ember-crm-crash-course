@@ -11,6 +11,7 @@
  * file per style scope.
  *
  *= require_tree .
+ *= require animate
  *= require_self
  */
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300,400italic);
@@ -200,25 +201,25 @@ article#leads ul li:hover, article#leads ul li.active {
   background: #f8e5ce;
 }
 
-article#lead {
+article#lead, article.lead {
   margin: 30px;
   width: 60%;
   float: left;
 }
 
-article#lead a.edit {
+article#lead a.edit, article.lead a.edit {
   font-size: 15px;
   font-weight: normal;
   margin-left: 15px;
 }
 
-article#lead .unsaved, article#lead .saving {
+article#lead .unsaved, article#lead .saving, article.lead .unsaved, article.lead .saving {
   color: #b20000;
   display: inline-block;
   padding: 0 0 0 20px;
 }
 
-article#lead .saving {
+article#lead .saving, article.lead .saving {
   color: #00d936;
 }
 
