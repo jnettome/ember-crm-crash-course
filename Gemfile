@@ -29,3 +29,4 @@ gem 'emblem-rails'
 
 gem 'ffaker'
 gem 'puma'
+gem 'rails_12factor'
