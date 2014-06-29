@@ -1,8 +1,8 @@
 # For more information see: http://emberjs.com/guides/routing/
 App.Router.reopen
-  location: auto
+  location: 'auto'
   rootUrl: '/'
 
-App.Router.map ()->
-  # @resource('posts')
+App.Router.map ->
+  @resource 'leads', path: '/'
 

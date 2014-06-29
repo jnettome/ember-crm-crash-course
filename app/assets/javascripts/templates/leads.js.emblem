@@ -1,0 +1,6 @@
+// app/assets/javascripts/templates/leads.js.emblem
+article#leads
+  h1 Leads
+  ul
+    each lead in controller
+      li= lead.fullName
