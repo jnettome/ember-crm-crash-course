@@ -1,6 +1,8 @@
 // app/assets/javascripts/templates/leads.js.emblem
 article#leads
-  h1 Leads
+  h1
+    | Leads
+    link-to 'leads.new' | New Lead
   ul
     each lead in controller
       link-to 'lead' lead tagName="li"
